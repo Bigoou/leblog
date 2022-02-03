@@ -1,0 +1,149 @@
+body {
+    font-family: 'futura';
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.bloc0 {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bloc {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+header {
+    font-size: 3rem;
+}
+
+.class1 {
+    background-color: #d4e2f3;
+}
+
+.bloc1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-evenly;
+}
+
+.bloc1 h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.billets {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.section1 {
+    width: 50%;
+    height: 10%;
+    margin: auto;
+}
+
+.section1 h1 {
+    font-weight: 500;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+header {
+    font-weight: bolder;
+}
+
+.section2 {
+    height: 500px;
+    width: 50%;
+}
+
+.img1 {
+    height: 70%;
+    margin-top: 8%;
+    margin-right: 15%;
+    float: right;
+}
+
+.bloc1 form {
+    margin-bottom: 5%;
+}
+
+.bouton {
+    background-color: #272727;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user {
+    padding: 10px;
+    border: #272727 solid 1px;
+    margin-top: 2%;
+    width: 400px;
+}
+
+textarea {
+    background-color: white;
+    border: #272727 solid 1px;
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    margin-bottom: 3%;
+}
+
+ nav a {
+    margin-left: 10%;
+    /* display:inline-block; */
+    padding:10px;
+
+} 
+
+a {
+    text-decoration: none;
+    color: #2c2c81;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.billet {
+    border: 2px #272727 solid;
+    padding: 2%;
+    margin: 2%;
+    width: 300px;
+    min-width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.p {
+    font-size: 14px;
+}
+
+ .liens {
+    justify-content:flex-end; 
+    width: 1000px; 
+    margin: auto;
+    margin-right: 0;
+} 
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
